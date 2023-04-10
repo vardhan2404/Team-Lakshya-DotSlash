@@ -1,4 +1,4 @@
-# hashcode
+# DotSlash
 
 A new Flutter project.
 
