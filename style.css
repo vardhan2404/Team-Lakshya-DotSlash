@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  h1 {
+    font-size: 72px;
+    margin: 0;
+  }
+  
+  button {
+    font-size: 24px;
+    margin: 16px;
+    padding: 8px 16px;
+  }
+  
