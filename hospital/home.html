@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Counter App</title>
+	<link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+</head>
+<body>
+    <form action="/action" method="POST">
+        <div class="container">
+            <h1 id="counter">0</h1>
+            <button id="increment-btn">+</button>
+            <button id="decrement-btn">-</button>
+            <button id="submit" type="submit">submit</button>
+        </div>
+    </form>
+
+	<script>
+        const counter = document.getElementById("counter");
+const incrementBtn = document.getElementById("increment-btn");
+const decrementBtn = document.getElementById("decrement-btn");
+
+let count = 0;
+
+$("#increment-btn").click(()=>{
+    count++;
+    counter.innerText = count;
+})
+$("#decrement-btn").click(()=>{
+    count--;
+    counter.innerText = count;
+})
+    </script>
+</body>
+</html>
